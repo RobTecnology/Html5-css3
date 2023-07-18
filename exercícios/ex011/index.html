@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo roberta.png" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <p>Para se ter imagens de diferentes tamanhos dependendo do tamanho do navegador deve se usar a tag &ltpicture&gt e dentro dela o img + a tag &ltsource&gt media type. (vindo em cima primeiro do img)</p>
+    <picture>
+        <source media="(max-width: 690px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos agora aprender a reproduzir áudios em html5</p>
+    <p>Para adicionar o áudio usa-se a tag &ltaudio&gt junto com os comandos controls e autoplay</p>
+    <audio src="media/A Long Cold (Sting) - Riot.mp3" controls autoplay></audio>
+</body>
+</html>

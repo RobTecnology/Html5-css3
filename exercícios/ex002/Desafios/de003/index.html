@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo roberta.png" type="image/x-icon">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Imagem adaptável</h1>
+    <p>Veja a seguir uma foto em diferentes tamanhos a medida que voce aumenta e diminui a tela do navegador.</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="foto-m.jpg" type="image/jpg">
+        <img src="foto-g.jpg" alt="foto-g">
+    </picture>
+</body>
+</html>
