@@ -10,15 +10,22 @@
         }
         table {
             border-collapse: collapse;
+            width: 400px;
         }
         td, th {
             border: 1px solid black;
-            width: 180px;
             padding: 5px;
         }
         thead, tfoot {
             background-color: darkgreen;
             color: white;
+        }
+        .num {
+            text-align: right;
+        }
+        caption {
+            font-size: 1,5em;
+            font-weight: bolder;
         }
        
     </style>
@@ -28,6 +35,7 @@
 
     <!--ANATOMIA PARA TABELAS GRANDES 
     TABLE
+        CAPTION - legenda da tabela 
         THEAD
            TR, TD, TH
         TBODY
@@ -37,31 +45,47 @@
         -->
 
     <table>
+        <caption>Número de População de habitantes federais</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
              <tr>
                 <td>São Paulo</td>
-                <td>79 735 346</td>
+                <td class="num">79 735 346</td>
 
              </tr>
              <tr>
                 <td>Minas Gerais</td>
-                <td>23 589 000</td>
+                <td class="num">23 589 000</td>
              </tr>
              <tr>
                 <td>Rio de Janeiro </td>
-                <td>90 368 234</td>
+                <td class="num">90 368 234</td>
+             </tr>
+             <tr>
+                <td>Curitiba</td>
+                <td class="num">36 268 235</td>
+             </tr>
+                <td>Alagoas</td>
+                <td class="num">88 499 45</td>
+             </tr>
+             <tr>
+                <td>Bahia</td>
+                <td class="num">46 122 78</td>
+             </tr>
+             <tr>
+                <td>Sergipe</td>
+                <td class="num">76 780 43</td>
              </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td>00000</td>
+                <th scope="row">Total de habitantes</th>
+                <td class="num">00000</td>
             </tr>
         </tfoot>
     </table>
