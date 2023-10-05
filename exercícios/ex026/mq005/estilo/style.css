@@ -1,2 +1,59 @@
 @charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: white;
+     background-color: orange;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid orange;
+}
+
+menu a:hover {
+    background-color: darkgreen;
+}
+
+main {
+    width: 70vw;
+    margin: auto;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+main h2 {
+    padding-bottom: 15px;
+    color: orange;
+    
+}
+
+main p {
+    color: white;
+    text-align: justify;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-indent: 20px; /*tag para espaçamento no começo de cada paragrafo*/
+
+}
