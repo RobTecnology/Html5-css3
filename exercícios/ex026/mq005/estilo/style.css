@@ -15,6 +15,10 @@ header > h1 {
      background-color: orange;
 }
 
+menu {
+    display: none;
+}
+
 menu > ul {
     list-style-type: none;
 }
@@ -56,4 +60,20 @@ main p {
     margin-bottom: 10px;
     text-indent: 20px; /*tag para espaçamento no começo de cada paragrafo*/
 
+}
+
+span#burguer {
+   color: orange;
+   font-weight: bold;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid orange;
+
+}
+
+span#burguer:hover {
+    background-color: green;
+    color: white;
 }
