@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+
+}
+
+p {
+    font-size: 2em;
+    color: white;
+    text-align: left;
+}
+
+header {
+    background-color: chocolate;
+    width: 50vw;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+a {
+    margin: auto;
+}
