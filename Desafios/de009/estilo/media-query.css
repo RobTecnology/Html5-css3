@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+/* css para tvs, pcs*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body, html {
+        background-color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    h1 {
+        color: white;
+        text-align: left;
+        font-size: medium;
+    
+    }
+    
+    p {
+        font-size: 1em;
+        color: white;
+        text-align: left;
+    }
+    
+    header {
+        background-color: chocolate;
+        width: 80vw;
+        padding: 2px;
+        border-radius: 5px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+    }
+    
+    a {
+        margin: auto;
+        
+    }
+    
+    main > a > img {
+        width: 180px;
+        margin: 40px;
+        border-radius: 30%;
+    }
+    
+    main > a > img:hover {
+        transform: translate(-6px, -6px);
+        border: 2px solid white;
+    }
+    
+    }
+}
